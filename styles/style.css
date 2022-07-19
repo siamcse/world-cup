@@ -90,9 +90,49 @@ body{
 .blog-title{
     padding-left: 20px;
 }
+.button{
+    color: #161616;
+    font-size: 16px;
+    font-weight: 500;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
 .time-comment{
     display: flex;
 }
 .time-comment .fa-comment-dots{
     margin-left: 30px;
+}
+
+/* footer style  */
+footer{
+    background: #161616;
+    width: 100%;
+    text-align: center;
+}
+footer h2{
+    color: white;
+    padding-top: 130px;
+    padding-bottom: 50px;
+    
+}
+footer hr{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 80%;
+}
+.footer-content{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.footer-content a{
+    text-decoration: none;
+    color: white;
+    padding-left: 15px;
+}
+.contact-logo{
+    padding: 10px;
+}
+.link-logo{
+    padding: 15px;
+    color: white;
 }
