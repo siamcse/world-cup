@@ -77,6 +77,13 @@ body{
     background: #FFFFFF;
     border-radius: 10px;
 }
+.sidebar-title a{
+    text-decoration: none;
+    color: black;
+}
+#bg-color{
+    background: #e36161;
+}
 .blog-container{
     margin-left: 24px;
     width: 312px;
