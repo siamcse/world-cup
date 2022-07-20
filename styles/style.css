@@ -63,11 +63,8 @@ body{
 }
 .header-banner img{
     max-width: 100%;
-    padding: 10px;
-    padding-bottom: 0;
+    padding-top: 20px;
     height: 613px;
-    /* margin-top: 33px; */
-    /* margin-left: 24px; */
     transition: transform 2s ease;
 }
 .header-banner img:hover{
@@ -117,6 +114,9 @@ main section blog style
 .blog-title{
     padding-left: 20px;
 }
+.blog-title h1{
+    font-weight: 500;
+}
 .button{
     color: #161616;
     font-weight: 600;
@@ -143,13 +143,15 @@ main section blog style
     border: 1px solid #E8E8E8;
     border-radius: 10px;
     width: 100%;
+    overflow: hidden;
 }
 .flags{
     display: flex;
     justify-content: space-between;
+
 }
 .flags img{
-    width: 100%;
+    width: 30%;
 }
 .flags p{
     font-weight: 700;
@@ -157,6 +159,7 @@ main section blog style
 }
 .country-name{
     text-align: center;
+    padding-top: 10px;
 }
 .country-name h3{
     font-size: 20px;
@@ -206,7 +209,7 @@ footer hr{
 /*---------------- 
 tablet device 
 ------------------*/
-@media only screen and (min-width: 577px) and (max-width: 1023px){
+@media only screen and (min-width: 577px) and (max-width: 992px){
     /* minimize common container  */
     .container{
         margin: 50px 50px 80px;
@@ -281,6 +284,9 @@ tablet device
         margin-top: 20px;
         padding: 8px 12px;
     }
+    .header-banner img{
+        height: 245px;
+    }
     .main-section{
         flex-direction: column;
     }
@@ -289,7 +295,14 @@ tablet device
     }
     .sidebar-title{
         border: 1px solid gray;
-        padding: 1px;
+    }
+    .blogs{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
     }
 
 }
