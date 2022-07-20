@@ -264,6 +264,10 @@ tablet device
         flex-wrap: wrap;
     }
 }
+
+/*---------------
+ mobile device 
+ ----------------*/
 @media only screen and (max-width: 576px){
     .container{
         margin: 20px 20px;
